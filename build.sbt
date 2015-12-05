@@ -2,7 +2,7 @@ name := """etcd-store-guice"""
 
 organization := "com.lvxingpai"
 
-version := "0.1.1-SNAPSHOT"
+version := "0.1.2-SNAPSHOT"
 
 scalaVersion := "2.11.4"
 
@@ -17,4 +17,3 @@ libraryDependencies ++= Seq(
 
 // Uncomment to use Akka
 //libraryDependencies += "com.typesafe.akka" %% "akka-actor" % "2.3.11"
-
