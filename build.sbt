@@ -2,7 +2,7 @@ name := """etcd-store-guice"""
 
 organization := "com.lvxingpai"
 
-version := "0.1.2"
+version := "0.1.3-SNAPSHOT"
 
 scalaVersion := "2.11.4"
 
@@ -11,7 +11,7 @@ crossScalaVersions := "2.10.4" :: "2.11.4" :: Nil
 // Change this to another test framework if you prefer
 libraryDependencies ++= Seq(
   "com.google.inject" % "guice" % "4.0",
-  "com.lvxingpai" %% "etcd-store" % "0.5.0-SNAPSHOT",
+  "com.lvxingpai" %% "etcd-store" % "0.5.0.6",
   "org.scalatest" %% "scalatest" % "2.2.4" % "test"
 )
 
